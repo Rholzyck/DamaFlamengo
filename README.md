@@ -1,12 +1,40 @@
-🔴 MARACA - BRASILEIRÃO DE SÉRIE A (Jogo de Damas) ⚽O clássico jogo de Damas combinado com a paixão e rivalidade do futebol brasileiro! Escolha seu clube de coração da Série A, dispute confrontos em séries de 3 jogos e conquiste a taça do Brasileirão.🎮 CLIQUE AQUI PARA JOGAR AGORA NO GITHUB PAGES🌟 Destaques do Jogo🛡️ 13 Clubes da Série A: Peças personalizadas com cores e escudos vetoriais 3D oficiais (Flamengo, Vasco, Palmeiras, São Paulo, Corinthians, Santos, Grêmio, Internacional, Atlético-MG, Botafogo, Fluminense, Bahia e Cruzeiro).👑 Super Damas com Mascotes: Ao promover uma peça a Dama, ela ganha uma aura dourada reluzente e o mascote oficial do seu clube (Urubu, Porco, Raposa, Galo, etc.).🤖 Inteligência Artificial (Minimax + Alpha-Beta): Enfrente a IA em 3 níveis de dificuldade (Fácil, Médio e Difícil) com avaliação posicional tática de nível mestre.📡 Partida Simultânea em Tempo Real: Um mini-tabuleiro no painel esquerdo simula duelos em tempo real entre outras equipes do campeonato.🏆 Simulador de Campeonato Inteiro: Simule todas as rodadas automaticamente e coroa o grande Campeão da Série A com critérios rígidos de desempate.🔊 Sons & Efeitos Visuais: Efeitos sonoros sintetizados via Tone.js, explosões de partículas em capturas, mensagens de comemoração e chuvas de confetes nas vitórias.🕹️ Modos de JogoModoDescrição👥 2 Jogadores (PvP)Partida local contra amigos no mesmo dispositivo.🤖 Vs IADuelo contra o computador com escolha de dificuldade.🏆 IA vs IAPartida demonstrativa automatizada entre inteligências artificiais.⚡ SimuladorSimula todo o campeonato de forma rápida e determina o Campeão Único.📜 Regras do Campeonato & CronômetroSérie de 3 Partidas: Cada confronto entre dois clubes é decidido em uma melhor de 3 jogos. Vitória no confronto garante +3 Pontos na tabela.Cronômetro de 20 Minutos (20:00): Se o tempo esgotar:Vence quem tiver o maior número de peças capturadas.Permanecendo o empate, vence quem tiver mais peças vivas no tabuleiro.Captura Obrigatória: O jogo detecta e destaca automaticamente as capturas obrigatórias conforme as regras oficiais de Damas.📁 Estrutura do Projetomeu-jogo/
-├── index.html       # Estrutura da aplicação e interface principal
-├── style.css        # Estilizações customizadas e animações
-├── script.js        # Lógica do jogo, inteligência artificial e motor de áudio
-├── GDD.md           # Game Design Document (Documentação do Projeto)
-└── assets/          # Imagens, efeitos sonoros e fontes locais
-    ├── fontes/
-    ├── imagens/
-    └── sons/
-🚀 Como Executar LocalmenteClone o repositório:git clone https://github.com/rholzyck/DamaFlamengo.git
-Navegue até a pasta do projeto:cd DamaFlamengo
-Abra o arquivo index.html:Basta dar um duplo clique no arquivo index.html para abrir diretamente no seu navegador, ou utilize a extensão Live Server no VS Code.🛠️ Tecnologias UtilizadasHTML5 Canvas: Renderização 2D/3D interativa do tabuleiro e sistema de partículas.Tailwind CSS: Estilização responsiva e moderna.Tone.js: Efeitos sonoros sintetizados em tempo real.FontAwesome: Ícones da interface.JavaScript (ES6+): Algoritmos de busca Minimax, heurística tática e lógica do torneio.📄 LicençaEste projeto está sob a licença MIT. Sinta-se à vontade para contribuir, sugerir melhorias ou fazer um fork do projeto!Desenvolvido por rholzyck — Jogar Agora no GitHub Pages 🎮
+# 🔴 MARACA - Brasileirão de Série A (Jogo de Damas Temático)
+
+[![Jogar Agora](https://img.shields.io/badge/JOGAR_AGORA-GitHub_Pages-red?style=for-the-badge&logo=github)](https://rholzyck.github.io/DamaFlamengo/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://rholzyck.github.io/DamaFlamengo/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://rholzyck.github.io/DamaFlamengo/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://rholzyck.github.io/DamaFlamengo/)
+
+O **MARACA - Brasileirão de Série A** é um jogo online de Damas estilizado com a temática dos maiores clubes do futebol brasileiro. Enfrente a Inteligência Artificial em diferentes níveis de dificuldade ou dispute partidas com amigos no mesmo dispositivo!
+
+🎮 **Acesse o jogo:** [https://rholzyck.github.io/DamaFlamengo/](https://rholzyck.github.io/DamaFlamengo/)
+
+---
+
+## 🌟 Funcionalidades & Destaques
+
+- 🛡️ **13 Clubes da Série A:** Escolha seu time com escudos 3D e cores oficiais (Flamengo, Vasco, Palmeiras, São Paulo, Corinthians, Santos, Grêmio, Internacional, Atlético-MG, Botafogo, Fluminense, Bahia e Cruzeiro).
+- 👑 **Super Damas & Mascotes:** Ao promover uma peça a Dama, ela ganha uma aura dourada reluzente e o mascote oficial do clube.
+- 🤖 **IA com Algoritmo Minimax:** Enfrente o computador com Poda Alpha-Beta nos níveis **Fácil**, **Médio** e **Difícil**.
+- 📺 **Partidas IA ao Vivo:** Acompanhe no painel lateral confrontos em tempo real entre outras equipes do campeonato.
+- 📊 **Tabela da Série A:** Classificação em tempo real por pontos, vitórias e saldo de gols.
+- ⏱️ **Cronômetro & Desempates:** Partidas com limite de 20 minutos e regras automáticas de vitória por número de capturas ou peças restantes.
+
+---
+
+## 🎮 Modos de Jogo
+
+| Modo | Descrição |
+| :--- | :--- |
+| **2 Jogadores (PvP)** | Partidas locais em tempo real no mesmo dispositivo. |
+| **Vs IA** | Desafie o computador nos níveis Fácil, Médio ou Difícil. |
+| **IA vs IA** | Duelos táticos automatizados entre inteligências artificiais. |
+| **Simulador da Série A** | Simulação do campeonato completo para coroar o Campeão! |
+
+---
+
+## 📜 Regras do Jogo
+
+1. **Movimentação:** Peças comuns movem-se 1 casa na diagonal para a frente.
+2. **Captura:** Feita saltando sobre a peça adversária para uma casa livre logo atrás.
+3. **Dama:** Promovida ao atingir a última fileira adversária, podendo mover-se e capturar
